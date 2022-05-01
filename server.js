@@ -59,9 +59,9 @@ app.get('/api/animals', (req, res) => {
   res.json(results);
 });
 
-app.listen(3001, () => {
-    console.log(`API server now on port 3001!`);
-  });
+app.listen(PORT, () => {
+  console.log(`API server now on port ${PORT}!`);
+});
 
 // enter ctrl+c and then y at the prompt to stop the previous server
 // to run the program, type npm start,  on the browser type in the localhost:<port#>/<route> e.g  http://localhost:3001/api/animals?name=Erica

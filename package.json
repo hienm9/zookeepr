@@ -19,6 +19,6 @@
   },
   "homepage": "https://github.com/hienm9/zookeepr#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.18.1"
   }
 }
